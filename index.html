@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Version</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Centered content -->
+    
+    <div class="centered-text">
+        <p><span class="hello">Hello</span></p>
+        <p><span class="im-text">I'm Dakshaini...</span></p>
+        <p><h1 class="click">Click on the Icon below.....</h1></p>
+    </div>
+
+      
+    <button id="chatbot-toggle-btn"><img src="chatbot.png" alt="Chatbot button"></button>
+
+    <div class="chatbot-popup" id="chatbot-popup">
+        <div class="chat-header">
+            <span>Virtual Dakshaini</span>
+            <button id="close-btn">&times;</button>
+        </div>
+        <div class="chat-box" id="chat-box"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
